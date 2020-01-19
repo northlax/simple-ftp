@@ -1,0 +1,18 @@
+{
+  "name": "northlax/simple-ftp",
+  "description": "A small set of methods for ftp activity",
+  "authors": [
+    {
+      "name": "northlax"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-sockets": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SimpleFtp\\": "src/"
+    }
+  }
+}
